@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'DINNextRoundedLTPro-Regular';
+    src: url(../fonts/DINNextRoundedLTPro-Regular.otf);
+}
+body{
+	padding-top: 100px;
+}
+svg.cultura{
+	margin-top: 30px;
+}
+svg.cultura tspan{
+	text-transform: uppercase;
+}
+p.numbers{
+	font-family: 'DINNextRoundedLTPro-Regular';
+	color: #98DB1F;
+    font-size: 14px;
+    position: absolute;
+    bottom: 30px;
+    left: 88px;
+}
+div.rectangulo{
+	width: 70px;
+	height: 30px;
+	background-color: #BAFF00;
+	margin-top: 30px;
+	float: right;
+    margin-right: 16px;
+}
+p.escribinos{
+	font-family: 'Alegreya', serif;
+	color: #333333;
+	font-size: 17px;
+	margin-top: 30px;
+	font-style: italic;
+}
+a{
+	color: #98DB1F;
+}
+@media (max-width: 767px) {
+	body{
+		padding-top: 30px;
+	}
+	svg.cultura{
+		margin-top: 0;
+	}
+	svg.abre-logo{
+		margin-top: 70px;
+	}
+	p.numbers {
+	    position: relative;
+	    bottom: 0;
+	    left: 0;
+	    float: right;
+	    margin-top: 350px;
+	}
+	p.escribinos {
+	    margin-top: 20px;
+	}
+}

@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,shrink-to-fit=no">
+    <title>ABRE</title>
+    <link rel="icon" href="{{ app.request.getSchemeAndHttpHost() ~ asset('assets/favicon.png') }}">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Cuaderno de Escritura">
+    <meta property="og:description" content="Formá parte del desarrollo de un cuaderno-libro único.">
+    <meta property="og:url" content="https://www.abrecultura.com/cuadernodeescritura/">
+    <meta property="og:image" content="{{ app.request.getSchemeAndHttpHost() ~ asset('assets/img/cuaderno_opengraph.png') }}">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+    <script>// enable to override webpacks publicPath
+        // var webpackPublicPath = '/';</script>
+    <link href="{{ app.request.getScheme() }}://{{ app.request.getHost() }}{{ app.request.baseUrl }}/data/version/{{ asset_version_stores }}/css/app.css"
+          rel="stylesheet">
+
+</head>
+<body>
+<div id="app"></div>
+<script type="text/javascript"
+        src="{{ app.request.getScheme() }}://{{ app.request.getHost() }}{{ app.request.baseUrl }}/data/version/{{ asset_version_stores }}/js/manifest.js"></script>
+<script type="text/javascript"
+        src="{{ app.request.getScheme() }}://{{ app.request.getHost() }}{{ app.request.baseUrl }}/data/version/{{ asset_version_stores }}/js/vendor.js"></script>
+<script type="text/javascript"
+        src="{{ app.request.getScheme() }}://{{ app.request.getHost() }}{{ app.request.baseUrl }}/data/version/{{ asset_version_stores }}/js/app.js"></script>
+<!-- Google Analytics -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-109099801-1', 'auto');
+    ga('send', 'pageview');
+</script>
+<!-- End Google Analytics -->
+</body>
+</html>

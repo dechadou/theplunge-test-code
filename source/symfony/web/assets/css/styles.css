@@ -1,0 +1,216 @@
+/*
+color
+5d6d47
+484848
+*/
+
+*{
+    font-family:'Roboto', sans-serif !important;
+}
+
+.fa{
+    font: normal normal normal 14px/1 FontAwesome !important;
+}
+
+.glyphicon{
+    font-family: 'Glyphicons Halflings' !important;
+}
+
+.main-header .sidebar-toggle
+{
+    font-family: fontAwesome !important;
+    color: #fff;
+    text-decoration: none;
+    background-color: #5d6d47;
+}
+
+
+body{
+
+}
+
+/*general*/
+a{
+    color: #5d6d47;
+}
+a:hover{
+    color: #5d6d47;
+    text-decoration: underline;
+}
+
+/*sidebar*/
+.skin-black .wrapper, .skin-black .main-sidebar, .skin-black .left-side,
+.skin-black .sidebar{
+    background: #5d6d47;
+}
+.skin-black .sidebar a{
+    color: #fff;
+    letter-spacing: 0.1em;
+}
+.skin-black .sidebar-menu>li>a{
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -ms-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+}
+
+.skin-black .sidebar-menu>li:hover>a, .skin-black .sidebar-menu>li.active>a{
+    color: #5d6d47;
+    background: #fff;
+    border-left-color: #5d6d47;
+}
+
+.sidebar-menu li.active>a>.fa-angle-left, .sidebar-menu li.active>a>.pull-right-container>.fa-angle-left{
+    -webkit-transition: all 0.12s ease-in-out;
+    -moz-transition: all 0.12s ease-in-out;
+    -ms-transition: all 0.12s ease-in-out;
+    -o-transition: all 0.12s ease-in-out;
+    transition: all 0.12s ease-in-out;
+}
+
+/*submenu*/
+.skin-black .sidebar-menu>li>.treeview-menu{
+    background: rgba(0,0,0,0.25);
+}
+.skin-black .treeview-menu>li>a{
+    color: #fff;
+}
+.skin-black .treeview-menu>li.active>a, .skin-black .treeview-menu>li>a:hover{
+    color: rgba(255,255,255,0.8);
+}
+
+
+/*header*/
+.skin-black .main-header .navbar>.sidebar-toggle{
+    color: #5d6d47;
+}
+
+.skin-black .main-header .navbar>.sidebar-toggle:hover{
+    background: #5d6d47;
+    color: #fff;
+}
+
+.skin-black .main-header .navbar .nav>li>a{
+    color: #5d6d47;
+}
+.skin-black .main-header .navbar .nav>li>a:hover{
+    background: #5d6d47;
+    color: #fff;
+}
+
+.skin-black .main-header .navbar .nav>li>a:hover, .skin-black .main-header .navbar .nav>li>a:active, .skin-black .main-header .navbar .nav>li>a:focus, .skin-black .main-header .navbar .nav .open>a, .skin-black .main-header .navbar .nav .open>a:hover, .skin-black .main-header .navbar .nav .open>a:focus, .skin-black .main-header .navbar .nav>.active>a{
+    background: #5d6d47;
+    color: #fff;
+}
+
+.dropdown-header,
+.dropdown-menu>li>a{
+    color: #5d6d47;
+}
+
+.dropdown-header{
+    font-weight: bold;
+}
+
+.skin-black .navbar .dropdown-menu > li > a:hover{
+    background: #5d6d47;
+    color: #fff;
+}
+
+.bg-light-blue, .label-primary, .modal-primary .modal-body{
+    background: #5d6d47 !important;
+}
+
+.navbar-nav>.user-menu>.dropdown-menu>.user-footer .btn-default{
+    color: #5d6d47;
+    background: #fff;
+    border-color: #5d6d47;
+}
+.navbar-nav>.user-menu>.dropdown-menu>.user-footer .btn-default:hover{
+    background: #5d6d47;
+    color: #fff;
+    border-color: #5d6d47;
+}
+
+/*content*/
+.content-wrapper, .right-side{
+    background: #fff;
+}
+.box{
+    border-radius: 4px !important;
+    border: 1px solid #DBDBDB !important;
+    box-shadow: 0 1px 3px 0px rgba(0, 0, 0, 0.08) !important;
+}
+.box-header{
+    color: #5d6d47;
+}
+td.sonata-ba-list-label{
+    color: #484848;
+}
+.btn-link, .btn-link:hover{
+    color: #5d6d47;
+}
+
+/*breadcrumb*/
+.breadcrumb,
+.breadcrumb>.active,
+.breadcrumb>li+li:before{
+    color: #5d6d47;
+}
+
+/*btn*/
+.btn-primary,
+.btn-success{
+    background: #5d6d47;
+    border-color: #5d6d47;
+}
+
+.btn-primary:hover,
+.btn-success:hover{
+    background: #c33338;
+    border-color: #c33338;
+}
+
+.btn-default{
+    border-color: #5d6d47;
+    color: #5d6d47;
+    background: #fff;
+}
+.btn-default.active, .btn-default:active, .open>.dropdown-toggle.btn-default,
+.btn-default.active:hover, .btn-default:hover, .btn-default:focus{
+    border-color: #5d6d47;
+    background: #5d6d47;
+    color: #fff;
+}
+
+.uno{
+    display: inline-block;
+    width: 84%;
+    padding-right: 4%;
+}
+
+.dos{
+    display: inline-block;
+    width: 15%;
+}
+
+.sonata-filters-box{
+    display: none !important;
+}
+
+ul.subsubsub {
+    list-style: none;
+    margin: 8px 0 0;
+    padding: 0;
+    font-size: 13px;
+    color: #666;
+}
+
+ul.subsubsub li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+}
+
